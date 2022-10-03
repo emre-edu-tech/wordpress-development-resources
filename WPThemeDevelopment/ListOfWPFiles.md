@@ -5,3 +5,4 @@ These files listed somewhat with the order a theme developer creates them
 - functions.php
 - .gitignore
 - header.php
+- footer.php
