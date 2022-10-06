@@ -1,0 +1,2 @@
+# Here are the links for the resources in Wordpress Developer Website
+- [https://developer.wordpress.org/reference/functions/wp_enqueue_script/#default-scripts-and-js-libraries-included-and-registered-by-wordpress] Default Scripts and JS Libraries Included and Registered by Wordpress

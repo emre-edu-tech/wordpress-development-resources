@@ -6,3 +6,4 @@ These files listed somewhat with the order a theme developer creates them
 - .gitignore
 - header.php
 - footer.php
+- screeonshot.png or screenshot.jpg (Recommended dimensions 1200x900)
