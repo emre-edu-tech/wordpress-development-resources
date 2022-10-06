@@ -20,3 +20,4 @@ Note: `add_theme_support()` function is also important while developing custom t
 - `get_stylesheet_directory_uri()`: Retrieves the URI(WITHOUT TRAILING SLASH) of the stylesheet directory for the active theme.
 - `get_stylesheet_uri()`: Retrieves the URI of the stylesheet for the active theme i.e. style.css file.
 - `filemtime()`: Returns the last modification time of a file given as a parameter. If the file is not modified since the last modification, then it returns false. This function is generally used for file versioning while development.
+- `get_template_part()`: Loads a template part into a template. For different or specialised usage, check the Wordpress documentation.
