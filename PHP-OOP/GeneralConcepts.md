@@ -10,6 +10,7 @@
 - spl_autoload_register()
     - Registers any number of autoloaders
     - Loads the classes in a given folder without declaring class names one by one.
+    - ##Note:## Loads the function in parameter (if the paramter is a function) as __autoload() implementation
 
 ## Trait
 - Normally only properties and methods can be inherited from parent class to child by extending the parent.
