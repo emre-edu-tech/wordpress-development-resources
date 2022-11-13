@@ -21,4 +21,7 @@ Adding theme support is one of the most important parts of theme development. `a
 - `add_theme_support('post-thumbnails')`: Post types will have the support for the featured image.
 - `add_theme_support('customize-selective-refresh-widgets')`: Customizer window will refresh just for the necessary part of the preview window for the widgets.
 - `add_theme_support('automatic-feed-links')`: Gives the possibility to RSS readers to find the website post updates.
-- `add_theme_support('html5, )`: Allows the use of HTML5 markup.
+- `add_theme_support('html5, ['search-form', 'comment-form', 'comment-list', 'gallery', 'caption', 'script', 'style'])`: Allows the use of HTML5 markup.
+- `add_editor_style()`: Allows theme developers to link a custom stylesheet file to the TinyMCE visual editor. The default stylesheet is editor-style.css
+- `add_theme_support('wp-block-styles')`: Useful to load your styles for the Gutenberg editor screen
+- `add_theme_support('align-wide')`: Gives the option for some of the Gutenberg blocks to be aligned as wide and full width
