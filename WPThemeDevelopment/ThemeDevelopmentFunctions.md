@@ -23,3 +23,10 @@ Note: `add_theme_support()` function is also important while developing custom t
 - `get_template_part()`: Loads a template part into a template. For different or specialised usage, check the Wordpress documentation.
 - `the_custom_logo()`: Displays the custom logo on the frontend that has been added using WP Customizer.
 - `has_custom_logo()`: Determines whether the site has custom logo.
+- `register_nav_menus(['menu_location_name' => 'menu_title'])`: Registers navigation menu locations for a theme. 
+- `wp_nav_menu(['theme_location' => 'header-menu'])`: Use this function to tell the theme where to display the registered menu. Keep in mind that there are more arguments in array. Check the other arguments of the array below.
+```
+wp_nav_menu([
+    'theme_location' => 'header-menu',
+])
+```
